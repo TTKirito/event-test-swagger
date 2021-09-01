@@ -12,6 +12,7 @@ export default class AuthController {
     }
 
     async signIn(req: Request, res: Response) {
+        console.log('hahah')
         await this.service.signIn(req, res);
     }
 }
